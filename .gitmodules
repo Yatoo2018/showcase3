@@ -1,0 +1,3 @@
+[submodule "modules/webkit-dwarf"]
+	path = modules/webkit-dwarf
+	url = https://github.com/dwarfJS/webkit-dwarf.git

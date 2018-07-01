@@ -7,8 +7,7 @@
     "1": "node ./cases/1.global-module.js",
     "2": "node ./cases/2.global-conflict.js",
     "3": "node ./cases/3.common.js",
-    "4": "node ./cases/4.common-mean.js",
-    "test": "mocha"
+    "4": "node ./cases/4.common-mean.js"
   },
   "repository": {
     "type": "git",

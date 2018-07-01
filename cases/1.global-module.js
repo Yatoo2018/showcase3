@@ -3,8 +3,16 @@
  */
 
 !function (root) {
+
+	var _$ = root.$
   function $() {
     // TODO
+  }
+  $.noConflict = function(){
+		if($ === root.$) {
+			root.$ = _$
+		}
+		return $
   }
   root.$ = $
 }(global)
